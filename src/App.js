@@ -6,7 +6,7 @@ import { DragDropContext } from "react-beautiful-dnd";
 
 export default function App() {
   const [items, setItems] = useState([]);
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   const addItem = () => {
     setItems([...items, `item-${count}`]);
